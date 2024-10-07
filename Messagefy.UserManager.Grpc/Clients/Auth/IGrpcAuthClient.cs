@@ -8,5 +8,7 @@ namespace Messagefy.UserManager.Grpc.Clients.Auth;
 [Service("GrpcAuthService")]
 public interface IGrpcAuthClient
 {
-    Task<GrpcLoginResponse> LoginAsync(GrpcLoginRequest request, CallContext context = default);
+    Task<GrpcAuthResponse> LoginAsync(GrpcLoginRequest request, CallContext context = default);
+    
+    Task<GrpcAuthResponse> RegisterAsync(GrpcRegisterRequest request, CallContext context = default);
 }

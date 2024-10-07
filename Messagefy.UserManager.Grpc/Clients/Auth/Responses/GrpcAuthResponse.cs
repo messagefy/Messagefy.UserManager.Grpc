@@ -4,7 +4,7 @@ using ProtoBuf;
 namespace Messagefy.UserManager.Grpc.Clients.Auth.Responses;
 
 [ProtoContract]
-public class GrpcLoginResponse
+public class GrpcAuthResponse
 {
     [ProtoMember(1)]
     public GrpcUserModel? User { get; set; }

@@ -7,10 +7,10 @@ public class GrpcUserModel
 {
     [ProtoMember(1)]
     public Guid Id { get; set; }
-    
+
     [ProtoMember(2)]
     public string FirstName { get; set; }
-    
+
     [ProtoMember(3)]
     public string LastName { get; set; }
 

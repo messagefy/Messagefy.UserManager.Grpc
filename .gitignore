@@ -40,7 +40,5 @@ appsettings.*.json
 .vscode
 .sonarqube
 **/BenchmarkDotNet.Artifacts/
-/subsystems/Uklon.Web/publish/**
 .idea
 StyleCop.Cache
-
